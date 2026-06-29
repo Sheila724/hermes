@@ -1,0 +1,12 @@
+@"
+.env
+*token*.json
+*credential*.json
+__pycache__/
+*.pyc
+*.bak*
+*.log
+dados.json
+dashboard.json
+*blocked_senders.json
+"@ | Out-File -Encoding utf8 .gitignore
